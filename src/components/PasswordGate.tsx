@@ -7,7 +7,7 @@ interface PasswordGateProps {
   onUnlock: () => void;
 }
 
-const PASSWORD = "1422002";
+const PASSWORD = "12122002";
 
 const PasswordGate = ({ onUnlock }: PasswordGateProps) => {
   const [value, setValue] = useState("");
