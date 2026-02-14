@@ -4,22 +4,23 @@ import { ChevronLeft, ChevronRight, Volume2, VolumeX } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
 
 const slides = [
-  { type: "image", src: "https://i.ibb.co/XxjTvJh3/Whats-App-Image-2026-02-13-at-8-30-47-PM.jpg", caption: "Every story has a beginning… ours started with you 💫" },
-  { type: "image", src: "https://i.ibb.co/gM26QTL6/Whats-App-Image-2026-02-13-at-8-31-02-PM.jpg", caption: "You make the ordinary feel extraordinary ✨" },
-  { type: "image", src: "https://i.ibb.co/8nq7mMmR/Whats-App-Image-2026-02-13-at-8-32-15-PM.jpg", caption: "Some people are magic. You’re proof💫" },
-  { type: "image", src: "https://i.ibb.co/JjWxLjLW/Whats-App-Image-2026-02-13-at-8-31-00-PM.jpg", caption: "Some moments are just worth holding onto forever 🤍" },
-  { type: "image", src: "https://i.ibb.co/tnXWbkF/Whats-App-Image-2026-02-13-at-8-58-25-PM.jpg", caption: "With you, even silence feels like a conversation 💭" },
-  { type: "image", src: "https://i.ibb.co/fz4yrByM/Whats-App-Image-2026-02-13-at-8-58-27-PM.jpg", caption: "You're my favorite notification 📱" },
-  { type: "image", src: "https://i.ibb.co/B5YKjXdW/Whats-App-Image-2026-02-13-at-8-31-03-PM.jpg", caption: "Life's better with you in it, no doubt about that 🌙" },
-  { type: "image", src: "https://i.ibb.co/Z62q1df0/Whats-App-Image-2026-02-13-at-10-35-17-PM.jpg", caption: "This smile? Yeah, that's because of you 😊 ✨" },
-  { type: "video", src: "https://res.cloudinary.com/dohedj1jl/video/upload/v1771017940/dodo_bmkdbu.mp4", caption: "You don’t just change moments… you turn them into memories ✨" },
+  { type: "image", src: "https://i.ibb.co/chbX7Rpx/Whats-App-Image-2026-02-14-at-4-44-39-PM-1.jpg",caption: "You didn’t just steal my heart… you made it feel safe 💖🔒" },
+  { type: "video", src: "https://res.cloudinary.com/dohedj1jl/video/upload/v1771084438/Download_1_nuptag.mp4", caption: "The first song we ever listened to together… and somehow, it still sounds like the beginning of forever 🎶🤍" },
+  { type: "image", src: "https://i.ibb.co/pvjXD2zf/Whats-App-Image-2026-02-14-at-4-47-35-PM-1.jpg",caption: "Every time I look at you, I see my future smiling back at me ✨😊" },
+  { type: "image", src: "https://i.ibb.co/kVWjmxdc/Whats-App-Image-2026-02-14-at-4-47-35-PM.jpg",caption: "You’re not my whole world… you’re the best part of it 🌍💛" },
+  { type: "image", src: "https://i.ibb.co/nMvHcjWR/Whats-App-Image-2026-02-14-at-4-44-39-PM.jpg",caption: "Being yours is my favorite place to be 🤍✨" },
+  { type: "video", src: "https://res.cloudinary.com/dohedj1jl/video/upload/v1771081731/WhatsApp_Video_2026-02-14_at_4.50.53_PM_fljfw1.mp4", caption: "Some love stories are written in the stars… ours feels written in fate 🌟💫" },
+
+
 
 ];
 
 const finalSlide = {
-  mainMessage:
-    "Hey you… yeah, you. I just wanted to say — you mean the world to me. Not in a cheesy movie way, but in a 'you're the first person I want to talk to every day' kind of way. Thank you for being you. 💛",
-  secretMessage: "P.S. You're stuck with me now 😏",
+mainMessage:
+  "You walked into my life so naturally, and somehow became my favorite part of it. Loving you feels easy, safe, and real. I’m grateful for you more than you’ll ever know. 💛",
+
+secretMessage:
+  "P.S. Forever sounds pretty perfect with you 😉🤍",
 };
 
 const PhotoSlideshow = () => {
@@ -42,7 +43,7 @@ const PhotoSlideshow = () => {
   const totalSlides = slides.length + 1;
 
   // 🔥 عدل التاريخ هنا
-  const startDate = new Date("2025-12-23T13:59:00");
+  const startDate = new Date("2025-02-14T13:59:00");
 
   useEffect(() => {
     const interval = setInterval(() => {
